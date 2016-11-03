@@ -24,6 +24,11 @@ describe('Fizzbuzz returns values for different kinds of numbers', function () {
 	  let result = fizz(5);
 	  assert.equal(result, "Buzz");
   });
+
+      it('should return Fizz for 3', function () {
+	  let result = fizz(3);
+	  assert.equal(result, "Fizz");
+  });
   // Your Tests Here
 });
 
