@@ -1,18 +1,19 @@
 function fizz (x) {
   // TODO
-  if (x % 3 === 0) {
-  	console.log('Fizz');
+  if (x % 15 === 0) {
+  	return 'FizzBuzz';
   }
   else if (x % 5 === 0) {
-  	console.log('Buzz');
+  	return 'Buzz';
   }
 
-  else if (x % 15 === 0) {
-  	console.log('FizzBuzz');
+  else if (x % 3 === 0) {
+  	return 'Fizz';
   }
   else {
   	return x;
   }
+ 
 };
 
 function fizzBuzz (start, end) {
