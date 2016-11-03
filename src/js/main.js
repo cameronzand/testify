@@ -18,7 +18,9 @@ function fizz (x) {
 
 function fizzBuzz (start, end) {
   // Write fizzbuzz here once fizz is finished.
-  // for (var i = 0; i < end; i++)
+   for (var i = start; i < end; i++) {
+   	console.log(fizz(i));
+   }
 };
 
 export { fizz };
