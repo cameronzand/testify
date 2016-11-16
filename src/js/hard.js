@@ -21,4 +21,34 @@ class GildedRose {
 
 }
 
+  conjured () {
+    this.sellIn--;
+    if (this.sellIn > 0){
+      this.quality = this.quality - 2;
+    } 
+
+    else (this.sellIn < 0){
+      this.quality = 0;
+    }
+  }
+
+    agedBrie () {
+      this.sellIn--;
+      if (this.sellIn > 0){
+        this.quality = this.quality + 1;
+
+      } else if ( this.sellIn < 0){
+        this.quality = this.quality + 2;
+      }
+
+    }
+    // sulfuras() {
+
+
+    // }
+
+
+  }
+
+
 export { GildedRose };
